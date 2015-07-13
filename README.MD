@@ -1,6 +1,6 @@
 
 ## Resumo:
-O o bjetivo é dada a iamgem de uma mão executando uma jogada do jokenpo 
+Dada a imagem de uma mão executando uma jogada do jokenpo o programa classifica-a. 
 
 ## Dependências
 
