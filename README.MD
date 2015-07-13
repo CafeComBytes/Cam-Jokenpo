@@ -1,6 +1,6 @@
 
 ## Resumo:
-Dada a imagem de uma mão executando uma jogada do jokenpo o programa classifica-a. 
+Dada a imagem de uma mão executando uma jogada do jokenpo o programa informa qual foi a jogada analizando a imagem. 
 
 ## Dependências
 
