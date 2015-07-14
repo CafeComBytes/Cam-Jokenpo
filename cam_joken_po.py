@@ -37,9 +37,9 @@ while(True):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     #remove ruidos com a gaussiana
     blur = cv2.GaussianBlur(gray, (5, 5), 0)
-    #aplica um trasehold...está invertido para ser utilizado no escuro para remover o fundo com facilidade
+    #aplica um trasehold...esta invertido para ser utilizado no escuro para remover o fundo com facilidade
     ret, thresh1 = cv2.threshold(blur, 70, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-    #encontra os contornos da mão.
+    #encontra os contornos da mao.
     ret, contours, hierarchy = cv2.findContours(thresh1, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     #encontra o contorno de maior area
     max_area = 0.0
