@@ -13,12 +13,12 @@ Dada a imagem de uma mão executando uma jogada do jokenpo o programa informa qu
 ### Windows
 
 - Instale o [Anaconda](http://continuum.io/downloads) que contém todas depenência, inclusive o Python. Basta fazer o download do arquivo .exe e executa-lo.
-
+- In
 
 ## Como instalar o OpenCV
 
 ### Linux
-  Seguir as instruções disponíveis em [OpenCV-Linux](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation). Lí em algum lugar que dá para instalar com o comando abaixo, não testei mas pode funcionar:
+  Seguir as instruções disponíveis em [OpenCV-Linux](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation). Ou digite:
   ```
   $ sudo apt-get install python-opencv
   ```

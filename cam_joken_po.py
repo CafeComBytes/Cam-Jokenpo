@@ -87,13 +87,13 @@ if __name__ == '__main__':
         _, contornos, _ = cv2.findContours(imagem_borrada_e_limiarizada, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
         #encontra o contorno de maior area.
-        max_area = 0.0
+        controno_de_area_maxima = 0.0
         for i in range(len(contornos)):
 
                 cnt = contornos[i]
                 area = cv2.contourArea(cnt)
-                if(area > max_area):
-                    max_area=area
+                if(area > controno_de_area_maxima):
+                    controno_de_area_maxima = area
                     ci=i
         contorno_de_maior_area = contornos[ci]
 
@@ -106,7 +106,7 @@ if __name__ == '__main__':
         desenho = np.zeros(quadro.shape, np.uint8)
 
         #Desenha o contorno.
-        cv2.drawContours(desenho,[cnt], 0, (0, 255, 0), 2)
+        cv2.drawContours(desenho,[contorno_de_maior_area], 0, (0, 255, 0), 2)
         #Desenha a hull.
         cv2.drawContours(desenho,[hull], 0, (0, 0, 255), 2)
 
