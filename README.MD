@@ -2,6 +2,11 @@
 ## Resumo:
 Dada a imagem de uma mão executando uma jogada do jokenpo o programa informa qual foi a jogada analizando a imagem. 
 
+## ScreenShots
+![ScreenShot1](https://raw.githubusercontent.com/UelitonFreitas/OpenCVPython/master/CamJokenPo/SreenShots/papel.png)
+![ScreenShot2](https://raw.githubusercontent.com/UelitonFreitas/OpenCVPython/master/CamJokenPo/SreenShots/pedra.png)
+![ScreenShot3](https://raw.githubusercontent.com/UelitonFreitas/OpenCVPython/master/CamJokenPo/SreenShots/tesoura.png)
+
 ## Dependências
 
 ### Linux
